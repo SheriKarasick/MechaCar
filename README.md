@@ -3,7 +3,8 @@
 ## Summary
 This analysis utilizes the valued scientific tool, R, to perform statistical analyses on two datasets.  Relying solely on R, the report contains a variety of statistical tests to demonstrate conceptual competencies in addition to technical competencies using the provided tools. The product being evaluated, the MechaCar, looks as it will be a succesful product once a few manufacturing details and specifications are finalized utilizing test data. The test data includes 50 potential prototypes to be considered.
 
-###### Data sets analyzed: 
+###### Data sets analyzed and resources:
+* [R_Script for the analysis]()
 * [Multiple dimensions that may influence fuel efficiency](MechaCar_mpg.csv): informing decisions among 50 potential prototype MechaCars
 * [Car engine capacity vs make](Suspension_Coil.csv): data from tests of the suspension coils to determine consistency across lots
 
@@ -45,6 +46,15 @@ T-tests are used to evaluate whether or not relationships between the values are
 In the case of the suspension coil data, the population mean is calculated to be 3.175361.  The sample that was randomly generated has a calculated mean of 3.175732 with a p value of 0.4076.  The p-value supports that there is not a significantly significant difference between the sample group and the population mean. The null hypothesis cannot be rejected.
 
 ###### Original Study Plan
+
+Prior to making manufacturing recommendations to MechaCar, I would strongly recommend that the company invest in market research about the target market for their products.  Market research would inform if their customers are looking for: 
+* performance features: (e.g. fast cars, irregardless of fuel economy)
+* physical aspects such as vehicle size and color
+* vehicle sex appeal which may drive decisions toward cars with positions lower too the ground or spoiler angles that are sportier
+* price compoonents: what price point does the target market purchase at and which car has the parameters that will allow for the highest profit per unit
+
+With a clear definition of a target market to inform prioritization in production of potential models, then the company can utilize a multiple linear regression model to identify the features that will most significantly impact the success of the product sales.  Using this model, the features with the most significant impact can be tested with focus groups, using t-tests, to ensure the combination of components are accurately matched to the target audience.
+
 
 
 
