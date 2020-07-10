@@ -13,9 +13,9 @@ This analysis utilizes the valued scientific tool, R, to perform statistical ana
 Multiple linear regression tests look at the effect of individual components to the overall outcome of a vehicle's fuel efficiency.  Five concurrent independent variables contributed to the model: length of the vehicle, weight of the vehicle, angle of the spoiler, clearance from the ground, all wheel drive (binary) and the dependent variable: miles per gallon of fuel.
 
 
-|summary|   vehicle_length |   vehicle_weight |    spoiler_angle | ground_clearance |          AWD     |
- ------   ----------------   ----------------   ----------------   -----------------  ----------------- 
-|  slope|              6.27|            0.0012|             0.069|              3.55|             -3.41|
+|summary|   vehicle_length |   vehicle_weight | spoiler_angle | ground_clearance |          AWD     |
+| ------|   ---------------|   ---------------|---------------|----------------- | -----------------| 
+| slope |              6.27|            0.0012|          0.069|              3.55|             -3.41|
 
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
