@@ -8,6 +8,8 @@ This analysis utilizes the valued scientific tool, R, to perform statistical ana
 * [Multiple dimensions that may influence fuel efficiency](MechaCar_mpg.csv): informing decisions among 50 potential prototype MechaCars
 * [Car engine capacity vs make](Suspension_Coil.csv): data from tests of the suspension coils to determine consistency across lots
 
+[View this file as a text download.](MechaCarWriteUp.txt)
+
 ### Tests and Outcomes
 
 ###### Performing a Multiple Linear Regression Analysis Comparing Contributing Factors
