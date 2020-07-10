@@ -13,9 +13,9 @@ This analysis utilizes the valued scientific tool, R, to perform statistical ana
 Multiple linear regression tests look at the effect of individual components to the overall outcome of a vehicle's fuel efficiency.  Five concurrent independent variables contributed to the model: length of the vehicle, weight of the vehicle, angle of the spoiler, clearance from the ground, all wheel drive (binary) and the dependent variable: miles per gallon of fuel.
 
 
-|summary|   vehicle_length |   vehicle_weight | spoiler_angle | ground_clearance |          AWD     |
-| ------|   ---------------|   ---------------|---------------|----------------- | -----------------| 
-| slope |              6.27|            0.0012|          0.069|              3.55|             -3.41|
+    |summary|   vehicle_length |   vehicle_weight | spoiler_angle | ground_clearance |          AWD     |
+    | ------|   ---------------|   ---------------|---------------|----------------- | -----------------| 
+    | slope |              6.27|            0.0012|          0.069|              3.55|             -3.41|
 
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -26,4 +26,27 @@ The slope of the linear model is not considered zero.  For the angle of the spoi
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The lines would intersect the y-axis at -104.0.  This intercept value points to the influence of additional variables that are confounding the results and not considered in these calculations. Therefore, this model fails to provide sufficient information to inform decision about the prototypes.
+
+###### Summary Statistics exploring suspension coil performance
+
+    | summary  |  PSI      |   
+    |----------|-----------|   
+    | mean     |       1499| 
+    | median   |       1500| 
+    | variance |       62.3| 
+    | std dev  |       7.89| 
+
+* Does the current manufacturing data meet the design specification for suspension coil variance to not exceed 100 pounds? 
+Yes, the specifications do match the required specifications.  The variance value is only 62.3 pounds, which is well below the 100 pound limit.
+
+###### T-test to evaluate the suspension coil
+T-tests are used to evaluate whether or not relationships between the values are statisically different from the mean, determining the value of the data as evidence of the design efficacy. For a one-sided t-test to be tested we test against a null hypothesis that there is no difference between the tested mean and the population mean.  The alternative hypothesis will assert that there is a notable difference between the sample population and the population mean.
+
+In the case of the suspension coil data, the population mean is calculated to be 3.175361.  The sample that was randomly generated has a calculated mean of 3.175732 with a p value of 0.4076.  The p-value supports that there is not a significantly significant difference between the sample group and the population mean. The null hypothesis cannot be rejected.
+
+###### Original Study Plan
+
+
+
+
 
