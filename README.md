@@ -12,11 +12,11 @@ This analysis utilizes the valued scientific tool, R, to perform statistical ana
 ###### Performing a Multiple Linear Regression Analysis Comparing Contributing Factors
 Multiple linear regression tests look at the effect of individual components to the overall outcome of a vehicle's fuel efficiency.  Five concurrent independent variables contributed to the model: length of the vehicle, weight of the vehicle, angle of the spoiler, clearance from the ground, all wheel drive (binary) and the dependent variable: miles per gallon of fuel.
 
-+-------+------------------+------------------+------------------+------------------+------------------+
+--------------------------------------------------------------------------------------------------------
 |summary|   vehicle_length |   vehicle_weight |    spoiler_angle | ground_clearance |          AWD     |
-+-------+------------------+------------------+------------------+------------------+------------------+
+--------------------------------------------------------------------------------------------------------
 |  slope|              6.27|            0.0012|             0.069|              3.55|             -3.41|
-+-------+------------------+------------------+------------------+------------------+------------------+
+--------------------------------------------------------------------------------------------------------
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The slope of the linear regression model (m coefficient) for each individual model can inform the impact each of the components to the overall success of the vehicle model being tested. Given the five different variables, m coefficient values indicate that the weight of the vehicle and angle of the spoiler are the variables that cause the greatest influence on the vehicles fuel efficiency.  If MechaCar strives to build vehicles with the environmentally and fiscally important maximum fuel efficiency, they will pay close attention to the combination of these two variables.  
