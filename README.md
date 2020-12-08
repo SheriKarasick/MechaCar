@@ -1,4 +1,4 @@
-# MechaCar
+# R for Statistical Analyses
 
 ## Summary
 This analysis utilizes the valued scientific tool, R, to perform statistical analyses on two datasets.  Relying solely on R, the report contains a variety of statistical tests to demonstrate conceptual competencies in addition to technical competencies using the provided tools. The product being evaluated, the MechaCar, looks as it will be a succesful product once a few manufacturing details and specifications are finalized utilizing test data. The test data includes 50 potential prototypes to be considered.
